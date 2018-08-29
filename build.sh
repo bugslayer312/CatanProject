@@ -8,5 +8,5 @@ for dir in build output; do
 done
 
 cd build
-cmake -DCMAKE_PREFIX_PATH="/Users/user/Qt/5.5/clang_64/" ../src
+cmake -DCMAKE_PREFIX_PATH="$QT_PREFIX_PATH" ../src
 make

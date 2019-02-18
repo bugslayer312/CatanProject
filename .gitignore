@@ -1,2 +1,3 @@
-build/
+build*/
 output/
+src/CMakeLists.txt.user*
